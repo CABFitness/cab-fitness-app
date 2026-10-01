@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "CAB Coach",
+    "slug": "cab-coach",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": ["expo-router"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.cabfitness.coach"
+    },
+    "android": {
+      "package": "com.cabfitness.coach"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

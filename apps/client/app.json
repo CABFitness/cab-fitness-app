@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "CAB Fitness",
+    "slug": "cab-fitness",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      "expo-router",
+      [
+        "expo-in-app-purchases",
+        {
+          "supportsLargeIconUrl": true
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.cabfitness.app"
+    },
+    "android": {
+      "package": "com.cabfitness.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
